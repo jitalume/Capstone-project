@@ -20,6 +20,7 @@ The benefits of a bike-share program are
 2.	It supports a healthy environment by reducing carbon emission.
 3.	It discourages noise pollution 
 4.	It can also be cost efficient to the rider.
+5.	
 PROBLEM STATEMENT.
 This project shall examine the following problems
 1.	The disparity in the membership structure of the bike-share program.
@@ -31,6 +32,8 @@ PROJECT STAKEHOLDERS
 
 As a junior data analyst working with the marketing analyst team at cyclistic bike-share company in Chicago, the task is to analyse data to formulate a marketing strategy that will pave a successful business operation for the bike-share company. 
 The stakeholders for this project include Lily Moreno who is the director of marketing, the director of finance, the director of operations, the cyclitic marketing analytics team who are responsible for collecting, analysing and reporting data to guide  Cyclistic marketing strategy, the executive team of the company as well as prospective bike riders.
+
+
 ROOT CAUSE ANALYSIS
 Following the request of the bike-share company, the directors want to increase annual membership. The following questions set 
 •	Why does the company want to improve annual membership? This might certainly be because they have in their database more of casual riders whose revenue are not sustainable.
@@ -39,10 +42,14 @@ Following the request of the bike-share company, the directors want to increase 
 •	Why are there no profit realized? This may be because most casual riders affors single ride.
 •	Why do they afford single rides? This is because they are not constant.
 Following the root cause specified above, it is factual that the bike-share company need to device a strategy that will allow casual riders to subscribe to the annual membership program so as to ensure increase in revenue that will be sustainable to the business alongside realizing more profit that will exceed the cost of maintenance.
+
+
 OBJECTIVE OF THE STUDY
 The following are the objectives of this project
 1.	To formulate a marketing strategy for the bike-share program.
 2.	To bridge the gap between casual and annual membership.
+
+3.	
 PREPARE PHASE
 DATA CLEANING AND PROCESSING
 This project shall be using Cyclic bike share data for the period January to March 2023 provided by the Google Data Analytics Course. The dataset is a comma-separated value format (.csv).
@@ -63,7 +70,9 @@ This pre-cleaned dataset contains a total of 5734381 entries across 12 tables, a
 •	end_lng: longitude of station at end of the ride
 •	member_casual: indication of whether customer is a Cyclistic annual member or casual rider
 Furthermore, in line with the privacy ethics, the personal information of riders were not included in this study. This implies that informations such as purchase history, credit card details, demographic locations cannot be explored within the scope of this project.
-The dataset contains entries for each trip/ride taken with Cyclistic bicycles within the the period January to March 2023. The data cleaning process is aim at ensuring all relevant information is used in the analysis. The cleaned relevant variables 
+The dataset contains entries for each trip/ride taken with Cyclistic bicycles within the the period January to March 2023. The data cleaning process is aim at ensuring all relevant information is used in the analysis.
+The cleaned relevant variables
+
 Data analysis
 Data analysis is performed using R, within the RStudio interface. Appropriate R extensions are utilized, namely the tidyverse package for data analysis.
 We will be looking at analysis for the following, for both annual members and casual riders, comparing the two groups where appropriate:
